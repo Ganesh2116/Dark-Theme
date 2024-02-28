@@ -1,0 +1,23 @@
+{
+  "name": "gkb-theme",
+  "displayName": "GKB-theme",
+  "description": "This is a dark theme",
+  "publisher": "ganeshbharti",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "icon": "./extension/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "bharti-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bharti-dark-color-theme.json"
+      }
+    ]
+  }
+}
